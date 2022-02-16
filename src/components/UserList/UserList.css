@@ -1,0 +1,109 @@
+.headline {
+  margin: unset;
+  padding-bottom: 3vh;
+  margin-bottom: 3vh;
+  background-color: #0c163d;
+  box-shadow: 0 2px rgb(107, 245, 255);
+  color: #e26b00;
+  font-family: "Balsamiq Sans";
+  font-size: 5vh;
+  font-weight: bold;
+  cursor: default;
+}
+
+.user_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh;
+  margin: unset;
+  margin: 3vh;
+  margin-bottom: 1.5vh;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.team_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 10px;
+  margin: 1vh;
+  width: 34%;
+  height: 4vh;
+  cursor: pointer;
+}
+
+.team_list:hover {
+  background-color: beige;
+}
+
+.team_red {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: red;
+}
+
+.team_blue {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: blue;
+}
+
+.team_yellow {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: yellow;
+}
+
+.no_team {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  margin-right: 2vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: #aaaaaa;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 3vh;
+  margin: unset;
+  margin: 3vh;
+  margin-top: 1.5vh;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.user_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: unset;
+  margin: 1vh;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #ccc;
+  width: 100%;
+  cursor: pointer;
+}
+
+.user_box:hover {
+  background-color: #ebebeb;
+}

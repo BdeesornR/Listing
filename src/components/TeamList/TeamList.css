@@ -1,0 +1,54 @@
+.content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 3vh;
+  margin: unset;
+  margin: 3vh;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.user_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: unset;
+  margin: 1vh;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #ccc;
+  width: 100%;
+  cursor: pointer;
+}
+
+.user_box:hover {
+  background-color: #ebebeb;
+}
+
+.team_red {
+  width: 3vh;
+  height: 3vh;
+  margin-right: 2vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: red;
+}
+
+.team_blue {
+  width: 3vh;
+  height: 3vh;
+  margin-right: 2vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: blue;
+}
+
+.team_yellow {
+  width: 3vh;
+  height: 3vh;
+  margin-right: 2vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: yellow;
+}

@@ -1,0 +1,96 @@
+.headline {
+  margin: unset;
+  padding-bottom: 3vh;
+  margin-bottom: 3vh;
+  background-color: #0c163d;
+  box-shadow: 0 2px rgb(107, 245, 255);
+  color: #e26b00;
+  font-family: "Balsamiq Sans";
+  font-size: 5vh;
+  font-weight: bold;
+  cursor: default;
+}
+
+.register_card {
+  text-align: center;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 2vh;
+  margin: 3vh;
+  height: auto;
+}
+
+.text_input {
+  text-align: center;
+  font-family: "Balsamiq Sans";
+  font-size: 2vh;
+  border-width: 1px;
+  border-color: #eee;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.affiliation_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_active {
+  border: 3px solid black;
+}
+
+.team_red {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: red;
+}
+
+.team_blue {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: blue;
+}
+
+.team_yellow {
+  width: 3vh;
+  height: 3vh;
+  margin-left: 1vh;
+  box-sizing: border-box;
+  border-radius: 1.5vh;
+  background-color: yellow;
+}
+
+.team_red:hover,
+.team_blue:hover,
+.team_yellow:hover {
+  cursor: grab;
+}
+
+.team_red:active,
+.team_blue:active,
+.team_yellow:active {
+  cursor: grabbing;
+}
+
+.btn_add {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: unset;
+  box-shadow: 0 2px 3px #ccc;
+  background-color: #eee;
+  padding: 1.5vh;
+  height: auto;
+  cursor: pointer;
+}
+
+.btn_add:hover {
+  background-color: #f4c500;
+}

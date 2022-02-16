@@ -1,0 +1,8 @@
+.name_display {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Balsamiq Sans";
+  font-size: 4vh;
+  font-weight: bold;
+}
